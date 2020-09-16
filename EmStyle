@@ -367,7 +367,7 @@ span.separator
     padding: 5px;
   
 }
-
+/**Mail and Preferences. If you remove up to next quote, it will go back to normal.**/
 #new_modmail.nohavemail:before {
     background-position: -62px 0;
 }
@@ -399,6 +399,7 @@ span.separator
     opacity: 0;
     transition: opacity 0.25s;
 }
+/**End of Mail stuff. Remove to see effects of it not being there.**/
 ul.flat-list.buttons a 
 {
     color: #20A4F3;
